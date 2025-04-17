@@ -5,7 +5,7 @@
         "price" : "16000" ,
         "description" : "Hello" ,
         "qty" : 50 ,
-        "image" : "image/s1.jpg" 
+        "image" : "image/images4.jfif" 
     },
     {
         "id" : 2 ,
@@ -13,7 +13,7 @@
         "price" : 20000 ,
         "description" : "Hello" ,
         "qty" : 53 ,
-        "image" : "image/s2.jpg" 
+        "image" : "image/images5.jfif" 
     },
     {
         "id" : 3 ,
@@ -21,14 +21,14 @@
         "price" : 30000 ,
         "description" : "Hello",
         "qty" : 34 ,
-        "image" : "image/s3.jpg" 
+        "image" : "image/images6.jfif" 
     },
     {
         "id" : 4 ,
         "name" : "AdidasAQ17" ,
         "price" : 32000 ,
         "description" : "Hello" ,
-        "image" : "image/s1.jpg" 
+        "image" : "image/images7.jfif" 
     }
     
 
