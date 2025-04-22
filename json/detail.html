@@ -36,6 +36,7 @@
         let productName = urlObj.searchParams.get('pName');
         let productPrice = urlObj.searchParams.get('pPrice');
         let productDes = urlObj.searchParams.get('pDes');
+        let productQty = urlObj.searchParams.get('pQty');
         // console.log(urlObj.searchParams.get('pName'));
         $("#productDetail").html(
 
@@ -55,6 +56,7 @@
                         <h4 class="card-title">`+productName+`</h4>
                         <p class="card-text pt-5">`+productDes+`</p>
                         <p class="card-text pt-2">`+productPrice+`</p>
+                        <p class="card-text pt-2">`+productQty+`</p>
                         <button class="btn btn-primary">Add To Cart</button>
                     </div>
                 </div>
