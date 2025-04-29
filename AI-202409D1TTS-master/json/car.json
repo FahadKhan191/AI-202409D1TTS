@@ -1,0 +1,29 @@
+[
+    {
+        "id" : 1 ,
+        "name" : "Mercedes" ,
+        "price" : "20 Million Dollar's" ,
+        "description" : "Expensive Car" ,
+        "qty" : 100 ,
+        "image" : "/image/Mercades.jpg" 
+    },
+    {
+        "id" : 2 ,
+        "name" : "BMW" ,
+        "price" : "80 Million Dollar's" ,
+        "description" : "Felling Car" ,
+        "qty" : 80 ,
+        "image" : "/image/BMW.jpg"
+
+    },
+    {
+        "id" : 3 ,
+        "name" : "Lamborghini" ,
+        "price" : "70.5 Million Dollar's" ,
+        "description" : "Eagle Shape Car" ,
+        "qty" : 50 ,
+        "image" : "/image/Yellow.jpg" 
+
+    }
+
+]

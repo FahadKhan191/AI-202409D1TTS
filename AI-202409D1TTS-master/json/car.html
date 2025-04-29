@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/AI-202409D1TTS-master/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Container Start -->
+    <div class="container p-5">
+        <div class="row" id="r1">
+          
+            
+            
+        </div>
+    </div>
+    <!-- Container End -->
+
+
+
+
+
+
+
+
+    <script src="/AI-202409D1TTS-master/json/Jquery/jquery-3.7.1.min.js"></script>
+    <script src="/AI-202409D1TTS-master/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script>
+        let productRow1 = $("#r1");
+        let col = "";
+
+        $.ajax({
+
+            url : "car.json",
+            type : "get",
+            success : function(Response){
+                console.log(Response);
+                $.each(Response,function(key , value){
+                    // console.log(value.price);
+                    col+=   `<div class="col-md-4">
+
+                    <div class="row" id="r1">
+            <div class="card text-start">
+                <img class="card-img-top" src='`+value.image+`' alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">`+value.name+`</h4>
+                    <p class="card-text">`+value.price+`</p>
+                    <a href="car.html?pId`+value.id+`&pName`+value.name+`&pPrice`+value.price+`&pImage`+value.image+`&pQty`+value.qty+`&pDes`+value.description+`"class="card-text>car</a>"
+                </div>
+            </div>
+            
+            
+        </div>
+
+        <div>`
+
+                });
+                productRow1.html(col);
+
+
+            
+            }
+
+        
+        })
+
+    </script>
+</body>
+</html>

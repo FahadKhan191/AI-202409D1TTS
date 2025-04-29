@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aptech xmlns:s1="https//abc.com" xmlns:s2="https//xyz.com" xmlns:s3="https//abcd.com" xmlns:s4="https//kjf.com" xmlns:s5="https//kjl.com" xmlns:sr1="https//abd.com" xmlns:sr2="https//abd.com" xmlns:sr3="https//abd.com" xmlns:sr4="https//abd.com" xmlns:sr5="https//abd.com">
+    <students>
+    <s1:student>
+        <s1:id>1</s1:id>
+        <s1:name>Fahad</s1:name>
+        <s1:course>Cpism</s1:course>
+    </s1:student>
+    <s2:student>
+        <s2:id>2</s2:id>
+        <s2:name>Mutahir</s2:name>
+        <s2:course>Dism</s2:course>
+    </s2:student>
+    <s3:student>
+        <s3:id>3</s3:id>
+        <s3:name>Uzair</s3:name>
+        <s3:course>Cpism</s3:course>
+    </s3:student>
+    <s4:student>
+        <s4:id>4</s4:id>
+        <s4:name>Hassan</s4:name>
+        <s4:course>Ms Office</s4:course>
+    </s4:student>
+    <s5:student>
+        <s5:id>5</s5:id>
+        <s5:name>Huzaifa</s5:name>
+        <s5:course>Lurking</s5:course>
+    </s5:student>
+    </students>
+    <sro>
+        <s1:srm>
+            <s1:id>1</s1:id>
+            <s1:name>Malaika</s1:name>
+            <s1:roll>Manager</s1:roll>
+        </s1:srm>
+        <s2:srm>
+            <s2:id>2</s2:id>
+            <s2:name>Adnan</s2:name>
+            <s2:roll>HOD</s2:roll>
+        </s2:srm>
+        <s3:srm>
+            <s3:id>3</s3:id>
+            <s3:name>Ali</s3:name>
+            <s3:roll>Co.Manager</s3:roll>
+        </s3:srm>
+        <s4:srm>
+            <s4:id>4</s4:id>
+            <s4:name>Atif</s4:name>
+            <s4:roll>Stuff</s4:roll>
+        </s4:srm>
+        <s5:srm>
+            <s5:id>5</s5:id>
+            <s5:name>Nafisa</s5:name>
+            <s5:roll>Stuff</s5:roll>
+        </s5:srm>
+    </sro>
+</aptech>
